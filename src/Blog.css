@@ -1,0 +1,246 @@
+.blogcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.blogimg1 {
+  background: url("https://preview.colorlib.com/theme/capitalshop/assets/img/blog/xsingle_blog_1.jpg.pagespeed.ic.crhqX85fp0.webp");
+  object-fit: cover;
+  margin-top: 30px;
+
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.blogimg2 {
+  background: url("https://preview.colorlib.com/theme/capitalshop/assets/img/blog/xsingle_blog_2.jpg.pagespeed.ic.QwFRAzu_NP.webp");
+  object-fit: cover;
+  margin-top: 30px;
+
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.blogimg3 {
+  background: url("https://preview.colorlib.com/theme/capitalshop/assets/img/blog/xsingle_blog_3.jpg.pagespeed.ic.D3so3ZMyuT.webp");
+  object-fit: cover;
+  margin-top: 30px;
+
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.blogimg4 {
+  background: url("https://preview.colorlib.com/theme/capitalshop/assets/img/blog/xsingle_blog_4.jpg.pagespeed.ic.sPLUurA5SD.webp");
+  object-fit: cover;
+  margin-top: 30px;
+
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.blogimg5 {
+  background: url("https://preview.colorlib.com/theme/capitalshop/assets/img/blog/xsingle_blog_5.jpg.pagespeed.ic.iAJ-fvqdoP.webp");
+  object-fit: cover;
+  margin-top: 30px;
+
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+.jandate span {
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+  display: block;
+  color: #fff;
+  background-color: #ff2020;
+  padding: 8px 15px;
+  border-radius: 5px;
+  bottom: -6px;
+  top: 700px;
+  left: 170px;
+  padding: 13px 30px;
+}
+.jandate1 span {
+  position: absolute;
+  left: 110px;
+  bottom: -600px;
+  display: block;
+  color: #fff;
+  background-color: #ff2020;
+  padding: 8px 15px;
+  border-radius: 5px;
+  top: 1300px;
+  left: 170px;
+  padding: 13px 30px;
+}
+.jandate2 span {
+  position: absolute;
+  left: 110px;
+  bottom: -1200px;
+  display: block;
+  color: #fff;
+  background-color: #ff2020;
+  padding: 8px 15px;
+  border-radius: 5px;
+  top: 1900px;
+  left: 170px;
+  padding: 13px 30px;
+}
+.jandate3 span {
+  position: absolute;
+  left: 110px;
+  bottom: -1800px;
+  display: block;
+  color: #fff;
+  background-color: #ff2020;
+  padding: 8px 15px;
+  border-radius: 5px;
+  top: 2500px;
+  left: 170px;
+  padding: 13px 30px;
+}
+.jandate4 span {
+  position: absolute;
+  left: 110px;
+  bottom: -2400px;
+  display: block;
+  color: #fff;
+  background-color: #ff2020;
+  padding: 8px 15px;
+  border-radius: 5px;
+  top: 3100px;
+  left: 170px;
+  padding: 13px 30px;
+}
+
+.blogtext1 {
+  display: flex;
+  flex-direction: column;
+}
+.blogtext1 :hover {
+  color: orangered;
+}
+.blogtext1 p {
+  font-style: bold;
+  font-size: 15px;
+}
+.blogtext1 span {
+  align-items: center;
+  margin-top: 10px;
+}
+.blogright {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.inputblog {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.inputblog input {
+  width: 290px;
+  height: 50px;
+}
+.inputblog button {
+  width: 100px;
+  margin-left: 5px;
+  height: 50px;
+  background-color: #ff2020;
+  border: none;
+  color: #fff;
+  font-size: medium;
+}
+.blogcategory {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.blogline {
+  background: rgb(209, 203, 191);
+  height: 0.1rem;
+}
+.bloglist li {
+  list-style: none;
+  padding: 15px;
+  font-size: 16px;
+}
+.blogpost {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.imgtext {
+  padding-left: 15px;
+}
+.mainblogdiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.tagclouds {
+  margin-top: 40px;
+}
+.cloudbtn1 {
+  margin-left: 25px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.cloudbtn1 button {
+  width: 70px;
+  color: gray;
+  background: white;
+  border: white;
+  border-radius: 5%;
+  height: 30px;
+}
+.cloudbtn1 button:hover {
+  background: red;
+}
+.instagramfeeds {
+  margin-top: 50px;
+}
+.feed {
+  display: flex;
+  flex-direction: column;
+}
+.feedimg1 {
+  display: flex;
+  flex-direction: row;
+}
+.feedimg1 img {
+  padding: 10px;
+}
+.feedimg2 {
+  display: flex;
+  flex-direction: row;
+}
+.feedimg2 img {
+  padding: 10px;
+}
+
+.newsletter {
+  margin-top: 50px;
+  background: white;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+}
+.newstext {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.newstext input {
+  width: 300px;
+  height: 55px;
+}
+.newstext button {
+  width: 350px;
+  height: 55px;
+  margin-top: 20px;
+  color: #ff2020;
+  border-color: #ff2020;
+  border-width: 1px;
+  background: white;
+}
